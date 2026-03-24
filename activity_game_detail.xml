@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    
+    <TextView
+        android:id="@+id/tvGameName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp" />
+    
+    <TextView
+        android:id="@+id/tvPlayTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कुल खेला: 0 मिनट"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+    
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="गेम खेलें"
+        android:layout_marginTop="32dp" />
+    
+    <Button
+        android:id="@+id/btnSetCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="कैटेगरी सेट करें"
+        android:layout_marginTop="16dp"
+        android:style="@style/Widget.AppCompat.Button.Borderless" />
+        
+</LinearLayout>
